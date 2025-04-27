@@ -1,10 +1,3 @@
-Got it. Your **Kandhal-shakil-portfolio** repo currently has an unclear file structure and minimal setup.  
-I’ll create a **proper, professional README.md** for you, including a corrected **Project Structure**.
-
-Here’s the updated one:
-
----
-
 # 🖥️ Kandhal Shakil - Personal Portfolio Website
 
 A sleek and responsive personal portfolio website built using **HTML5** and **CSS3** — showcasing projects, skills, and professional background with a clean and modern design approach.
