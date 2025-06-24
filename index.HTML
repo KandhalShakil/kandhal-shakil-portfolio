@@ -1,272 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="Official portfolio of Kandhal Shakil - Computer Engineer. Explore my projects, skills, and professional journey.">
-<meta name="keywords" content="Kandhal Shakil, Shakil Kandhal, Portfolio, Computer Engineer, Projects, Developer, Software Engineer">
-<meta name="author" content="Kandhal Shakil">
-<meta name="google-site-verification" content="m0_bdZzKdfgNo8nNpIblfglgdRdLPZDrWZW41z7kwx8" />
-<link rel="canonical" href="https://shakil-kandhal-portfolio.vercel.app/" />
 
-    <title>Kandhal Shakil | Portfolio</title>
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <!-- Font Awesome -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-      rel="stylesheet"
-    />
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" type="image/x-icon" href="pic.jpg" style="border-radius: 50%"/>
-    <link rel="stylesheet" href="style.css">
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kandhal Shakil | Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="pic.jpg" style="border-radius: 50%" />
+  <link rel="stylesheet" href="style.css">
+</head>
 
-  <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-md fixed-top">
-      <div class="container">
-        <a
-          class="navbar-brand"
-          href="#about"
-          style="color: var(--primary-color)"
-          >KS</a
-        >
-        <button
-          class="navbar-toggler ml-auto"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
-          <span class="fas fa-bars text-white-50"></span>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-md fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#about" style="color: var(--primary-color)">KS</a>
+      <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="fas fa-bars text-white-50"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#certificate">Certificates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+  <section class="hero" id="about">
+    <div class="container">
+      <div class="align-items-center">
+        <h1 class="display-1 mb-4" style="margin-top: 80px">
+          Kandhal Shakil
+        </h1>
+        <h2 class="mb-4" style="color: var(--primary-color)">
+          Frontend Developer
+        </h2>
+        <p class="mb-5" style="text-align: justify; font-size: 15px">
+          I am a detail-conscious and enthusiastic
+          <b>Frontend Developer</b> with expertise in HTML5, CSS3, JavaScript,
+          and new frameworks such as React.js. I love converting complex
+          issues into simple, easy-to-use solutions and designing responsive,
+          beautiful websites. With direct experience in building dynamic web
+          interfaces and a deep understanding of best practices in web
+          development, I look forward to working on cutting-edge projects at
+          Winzons. I prefer working in team settings, am a quick learner of
+          new technology, and always work towards providing clean, efficient
+          code that improves user experience.
+        </p>
+        <button class="hire-btn"
+          onclick="location.href='mailto:kandhalshakil098@gmaill.com?subject=Hello%20there&body=I%20would%20like%20Your%20Skills%20and%20projects.%0A%0APlease%20send%20more%20details...'">
+          Get In Touch
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#education">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#certificate">Certificates</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-5">
+    <div class="container">
+      <h2 class="section-title mb-5">Technical Arsenal</h2>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="skill-card">
+            <i class="fab fa-python fa-3x mb-3" style="color: var(--primary-color)"></i>
+            <h4>Python</h4>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="skill-card">
+            <i class="fab fa-html5 fa-3x mb-3" style="color: var(--primary-color)"></i>
+            <i class="fab fa-css3-alt fa-3x mb-3" style="color: var(--primary-color)"></i>
+            <i class="fab fa-js fa-3x mb-3" style="color: var(--primary-color)"></i>
+            <h4>HTML,CSS,JS</h4>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="skill-card">
+            <i class="fab fa-java fa-3x mb-3" style="color: var(--primary-color)"></i>
+            <h4>JAVA</h4>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="skill-card">
+            <i class="fab fa-bootstrap fa-3x mb-3" style="color: var(--primary-color)"></i>
+            <h4>Bootstrap</h4>
+          </div>
         </div>
       </div>
-    </nav>
-    <!-- Hero Section -->
-    <section class="hero" id="about">
-      <div class="container">
-        <div class="align-items-center">
-          <h1 class="display-1 mb-4" style="margin-top: 80px">
-            Kandhal Shakil
-          </h1>
-          <h2 class="mb-4" style="color: var(--primary-color)">
-            Frontend Developer
-          </h2>
-          <p
-            class="mb-5"
-            style="text-align: justify; font-size: 15px;"
-          >
-            I am a detail-conscious and enthusiastic
-            <b>Frontend Developer</b> with expertise in HTML5, CSS3, JavaScript,
-            and new frameworks such as React.js. I love converting complex
-            issues into simple, easy-to-use solutions and designing responsive,
-            beautiful websites. With direct experience in building dynamic web
-            interfaces and a deep understanding of best practices in web
-            development, I look forward to working on cutting-edge projects at
-            Winzons. I prefer working in team settings, am a quick learner of
-            new technology, and always work towards providing clean, efficient
-            code that improves user experience.
-          </p>
-          <button
-            class="hire-btn"
-            onclick="location.href='mailto:kandhalshakil098@gmaill.com?subject=Hello%20there&body=I%20would%20like%20Your%20Skills%20and%20projects.%0A%0APlease%20send%20more%20details...'"
-          >
-            Get In Touch
-          </button>
+    </div>
+  </section>
+  <!-- Education Section -->
+  <section id="education" class="py-5">
+    <div class="container">
+      <h2 class="section-title mb-5">Education</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="education-card align-items-center">
+            <div class="education-details">
+              <h4>
+                Bachelor of Engineering in Computer Science and Technology
+              </h4>
+              <p class="mb-1" style="color: var(--primary-color)">
+                Lok jagruti Kendra University
+              </p>
+              <p>2023 - continue</p>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="py-5">
-      <div class="container">
-        <h2 class="section-title mb-5">Technical Arsenal</h2>
-        <div class="row g-4">
-          <div class="col-md-3">
-            <div class="skill-card">
-              <i
-                class="fab fa-python fa-3x mb-3"
-                style="color: var(--primary-color)"
-              ></i>
-              <h4>Python</h4>
+        <div class="col-md-4">
+          <div class="education-card align-items-center">
+            <div class="education-details">
+              <h4>12<sup>th</sup> Science</h4>
+              <p class="mb-1" style="color: var(--primary-color)">
+                Gujarat State Board
+              </p>
+              <p>2022 - 2023</p>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="skill-card">
-              <i
-                class="fab fa-html5 fa-3x mb-3"
-                style="color: var(--primary-color)"
-              ></i>
-              <i
-                class="fab fa-css3-alt fa-3x mb-3"
-                style="color: var(--primary-color)"
-              ></i>
-              <i
-                class="fab fa-js fa-3x mb-3"
-                style="color: var(--primary-color)"
-              ></i>
-              <h4>HTML,CSS,JS</h4>
-            </div>
-          </div>
+        </div>
 
-          <div class="col-md-3">
-            <div class="skill-card">
-              <i
-                class="fab fa-java fa-3x mb-3"
-                style="color: var(--primary-color)"
-              ></i>
-              <h4>JAVA</h4>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="skill-card">
-              <i
-                class="fab fa-bootstrap fa-3x mb-3"
-                style="color: var(--primary-color)"
-              ></i>
-              <h4>Bootstrap</h4>
+        <div class="col-md-4">
+          <div class="education-card align-items-center">
+            <div class="education-details">
+              <h4>10<sup>th</sup></h4>
+              <p class="mb-1" style="color: var(--primary-color)">
+                Gujarat State Board
+              </p>
+              <p>2020 - 2021</p>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- Education Section -->
-    <section id="education" class="py-5">
-      <div class="container">
-        <h2 class="section-title mb-5">Education</h2>
-        <div class="row g-4">
-          <div class="col-md-4">
-            <div class="education-card align-items-center">
-              <div class="education-details">
-                <h4>
-                  Bachelor of Engineering in Computer Science and Technology
-                </h4>
-                <p class="mb-1" style="color: var(--primary-color)">
-                  Lok jagruti Kendra University
-                </p>
-                <p>2023 – Present</p>
-              </div>
-            </div>
-          </div>
+    </div>
+  </section>
 
-          <div class="col-md-4">
-            <div class="education-card align-items-center">
-              <div class="education-details">
-                <h4>12<sup>th</sup> Science</h4>
-                <p class="mb-1" style="color: var(--primary-color)">
-                  Gujarat State Board
-                </p>
-                <p>2022 - 2023</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="education-card align-items-center">
-              <div class="education-details">
-                <h4>10<sup>th</sup></h4>
-                <p class="mb-1" style="color: var(--primary-color)">
-                  Gujarat State Board
-                </p>
-                <p>2020 - 2021</p>
-              </div>
+  <!-- Certificate Section -->
+  <section id="certificate" class="py-5 bg-dark">
+    <div class="container">
+      <h2 class="section-title mb-5">Certificates</h2>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="certificate-card">
+            <img 
+              src="Inheritance and Data Structures in Java.png"
+              alt="Project" />
+            <div class="p-4">
+              <p>Inheritance and Data Structures in Java</p>
+              <a href="https://coursera.org/verify/H8XTMHMZSYZX" class="btn btn-outline-primary">View Certificate</a>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+        <div class="col-md-3">
+          <div class="certificate-card">
+            <img 
+              src="Introduction to HTML, CSS, & JavaScript.png"
+              alt="Project" />
+            <div class="p-4">
+              <p>Introduction to HTML, CSS, & JavaScript</p>
+              <a href="https://coursera.org/verify/2MWVBEWX2M8N" class="btn btn-outline-primary">View Certificate</a>
+            </div>
+          </div>
+        </div>
 
-    <!-- Certificate Section -->
-    <section id="certificate" class="py-5 bg-dark">
-      <div class="container">
-        <h2 class="section-title mb-5">Certificates</h2>
-        <div class="row g-4">
-          <div class="col-md-3">
-            <div class="certificate-card">
-              <img
-                class="img-thumbnail"
-                src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~H8XTMHMZSYZX/CERTIFICATE_LANDING_PAGE~H8XTMHMZSYZX.jpeg"
-                alt="Project"
-              />
-              <div class="p-4">
-                <p>Inheritance and Data Structures in Java</p>
-                <a
-                  href="https://coursera.org/verify/H8XTMHMZSYZX"
-                  class="btn btn-outline-primary"
-                  >View Certificate</a
-                >
-              </div>
+        <div class="col-md-3">
+          <div class="certificate-card">
+            <img 
+              src="Introduction to Java.png"
+              alt="Project" />
+            <div class="p-4">
+              <p>Introduction to Java</p>
+              <a href="https://coursera.org/verify/TUX8P7X8ELQD" class="btn btn-outline-primary">View Certificate</a>
             </div>
           </div>
-          <div class="col-md-3">
+        </div>
+           <div class="col-md-3">
             <div class="certificate-card">
               <img
                 class="img-thumbnail"
-                src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~2MWVBEWX2M8N/CERTIFICATE_LANDING_PAGE~2MWVBEWX2M8N.jpeg"
-                alt="Project"
-              />
-              <div class="p-4">
-                <p>Introduction to HTML, CSS, & JavaScript</p>
-                <a
-                  href="https://coursera.org/verify/2MWVBEWX2M8N"
-                  class="btn btn-outline-primary"
-                  >View Certificate</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="certificate-card">
-              <img
-                class="img-thumbnail"
-                src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~TUX8P7X8ELQD/CERTIFICATE_LANDING_PAGE~TUX8P7X8ELQD.jpeg"
-                alt="Project"
-              />
-              <div class="p-4">
-                <p>Introduction to Java</p>
-                <a
-                  href="https://coursera.org/verify/TUX8P7X8ELQD"
-                  class="btn btn-outline-primary"
-                  >View Certificate</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="certificate-card">
-              <img
-                class="img-thumbnail"
-                src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~NBH6CSAM16MD/CERTIFICATE_LANDING_PAGE~NBH6CSAM16MD.jpeg"
+                src="Exploratory Data Analysis for Machine Learning.png"
                 alt="Project"
               />
               <div class="p-4">
@@ -279,50 +215,53 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="py-5 bg-dark">
-      <div class="container">
-        <h2 class="section-title mb-5">Projects</h2>
-        <div class="row g-4">
-          <div class="col-md-4">
-            <div class="project-card">
-              <img src="logo.jpg" alt="Project" class="img-thumbnail"/>
-              <div class="p-4">
-                <h4>Event Management System</h4>
-                <p>Full-stack event management solution</p>
-                <a
-                  href="https://sky-event.vercel.app/"
-                  class="btn btn-outline-primary"
-                  >View Project</a
-                >
-              </div>
+        <div class="col-md-3">
+          <div class="certificate-card">
+            <img 
+              src="Developing Front-End Apps with React.png"
+              alt="Project" />
+            <div class="p-4">
+              <p>Developing Front-End Apps with React</p>
+              <a href="https://coursera.org/verify/0178B60775HH" class="btn btn-outline-primary">View Certificate</a>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="project-card">
-              <img
-                src="https://img.freepik.com/premium-vector/tic-tac-toe-logo-icon_1076610-87173.jpg"
-                alt="Project" class="img-thumbnail"
-              />
-              <div class="p-4">
-                <h4>TIC TAC TOE GAME</h4>
-                <p>Full-stack Game</p>
-                <a
-                  href="https://tic-tac-toe-game-cyan-five.vercel.app/"
-                  class="btn btn-outline-primary"
-                  >View Project</a
-                >
-              </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5 bg-dark">
+    <div class="container">
+      <h2 class="section-title mb-5">Projects</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="project-card">
+            <img src="logo.jpg" alt="Project" class="img-thumbnail" />
+            <div class="p-4">
+              <h4>Event Management System</h4>
+              <p>Full-stack event management solution</p>
+              <a href="https://sky-event.vercel.app/" class="btn btn-outline-primary">View Project</a>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="coming-soon-card rounded-4 project-card">
-              <div class="coming-soon-text">Coming Soon</div>
+        </div>
+        <div class="col-md-4">
+          <div class="project-card">
+            <img src="https://img.freepik.com/premium-vector/tic-tac-toe-logo-icon_1076610-87173.jpg" alt="Project"
+              class="img-thumbnail" />
+            <div class="p-4">
+              <h4>TIC TAC TOE GAME</h4>
+              <p>Full-stack Game</p>
+              <a href="https://tic-tac-toe-game-cyan-five.vercel.app/" class="btn btn-outline-primary">View Project</a>
             </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="coming-soon-card rounded-4 project-card">
+            <div class="coming-soon-text">Coming Soon</div>
+          </div>
         </div>
       </div>
       <div class="text-center mt-5">
@@ -331,86 +270,51 @@
           Amazing projects are in development!
         </p>
       </div>
-    </section>
+  </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="py-5">
-      <div class="container">
-        <h2 class="section-title mb-5">Let's Connect</h2>
-        <div class="row justify-content-center">
-          <div class="col-md-6">
-            <div class="contact-card p-5 rounded-4">
-              <form>
-                <div class="mb-4">
-                  <input
-                    type="text"
-                    class="form-control bg-dark text-light"
-                    placeholder="Name"
-                  />
-                </div>
-                <div class="mb-4">
-                  <input
-                    type="email"
-                    class="form-control bg-dark text-light"
-                    placeholder="Email"
-                  />
-                </div>
-                <div class="mb-4">
-                  <textarea
-                    class="form-control bg-dark text-light"
-                    rows="4"
-                    placeholder="Message"
-                  ></textarea>
-                </div>
-                <button type="submit" class="hire-btn w-100">
-                  Send Message
-                </button>
-              </form>
-              <div class="flex justify-center gap-6">
-                <a
-                  href="https://github.com/KandhalShakil"
-                  target="_blank"
-                  class="p-3 rounded-full bg-indigo-100 hover:bg-indigo-200"
-                  ><i
-                    class="fab fa-github"
-                    style="font-size: xx-large; margin-top: 30px"
-                  ></i
-                ></a>
-                <a
-                  href="https://www.linkedin.com/in/kandhal-shakil-5311302b6/"
-                  target="_blank"
-                  class="p-3 rounded-full bg-indigo-100 hover:bg-indigo-200"
-                  ><i
-                    class="fab fa-linkedin"
-                    style="font-size: xx-large; margin-top: 30px"
-                  ></i
-                ></a>
-                <a
-                  href="https://x.com/ShakilKandhal"
-                  target="_blank"
-                  class="p-3 rounded-full bg-indigo-100 hover:bg-indigo-200"
-                  ><i
-                    class="fab fa-twitter"
-                    style="font-size: xx-large; margin-top: 30px"
-                  ></i
-                ></a>
-                <a
-                  href="https://www.instagram.com/kandhal_shakil_551"
-                  target="_blank"
-                  class="p-3 rounded-full bg-indigo-100 hover:bg-indigo-200"
-                  ><i
-                    class="fab fa-instagram"
-                    style="font-size: xx-large; margin-top: 30px"
-                  ></i
-                ></a>
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="section-title mb-5">Let's Connect</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="contact-card p-5 rounded-4">
+            <form>
+              <div class="mb-4">
+                <input type="text" class="form-control bg-dark text-light" placeholder="Name" />
               </div>
+              <div class="mb-4">
+                <input type="email" class="form-control bg-dark text-light" placeholder="Email" />
+              </div>
+              <div class="mb-4">
+                <textarea class="form-control bg-dark text-light" rows="4" placeholder="Message"></textarea>
+              </div>
+              <button type="submit" class="hire-btn w-100">
+                Send Message
+              </button>
+            </form>
+            <div class="flex justify-center gap-6">
+              <a href="https://github.com/KandhalShakil" target="_blank"
+                class="p-3 rounded-full bg-indigo-100 hover:bg-indigo-200"><i class="fab fa-github"
+                  style="font-size: xx-large; margin-top: 30px"></i></a>
+              <a href="https://www.linkedin.com/in/kandhal-shakil-5311302b6/" target="_blank"
+                class="p-3 rounded-full bg-indigo-100 hover:bg-indigo-200"><i class="fab fa-linkedin"
+                  style="font-size: xx-large; margin-top: 30px"></i></a>
+              <a href="https://x.com/ShakilKandhal" target="_blank"
+                class="p-3 rounded-full bg-indigo-100 hover:bg-indigo-200"><i class="fab fa-twitter"
+                  style="font-size: xx-large; margin-top: 30px"></i></a>
+              <a href="https://www.instagram.com/kandhal_shakil_551" target="_blank"
+                class="p-3 rounded-full bg-indigo-100 hover:bg-indigo-200"><i class="fab fa-instagram"
+                  style="font-size: xx-large; margin-top: 30px"></i></a>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
