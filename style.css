@@ -82,10 +82,34 @@ body {
 
   img {
     height: 250px;
+    width: 100%;
   }
 }
 
-.certificate-card:hover {
+.coming-soon-card-certificate {
+  border: 2px solid var(--bs-primary);
+  background: rgba(var(--bs-primary-rgb), 0.05);
+  border-radius: 1.5rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  position: relative;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.coming-soon-card-certificate::before {
+  content: "𝙻𝚘𝚊𝚍𝚒𝚗𝚐";
+  position: absolute;
+  font-size: 4rem;
+  opacity: 0.05;
+  z-index: 0;
+}
+
+.coming-soon-card-certificate:hover {
   transform: translateY(-10px);
 }
 
