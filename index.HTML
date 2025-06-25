@@ -164,22 +164,37 @@
     <div class="container">
       <h2 class="section-title mb-5">Certificates</h2>
       <div class="row g-4">
-        <div class="col-md-3">
+
+        <!-- Certificate Number 1 -->
+          <div class="col-md-3">
           <div class="certificate-card">
-            <img 
-              src="Inheritance and Data Structures in Java.png"
-              alt="Project" />
+            <img src="Introduction to Java.png" alt="Project" />
+            <div class="p-4">
+              <p>Introduction to Java</p>
+              <a href="https://coursera.org/verify/TUX8P7X8ELQD" class="btn btn-outline-primary">View Certificate</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certificate Number 2 -->
+
+         <div class="col-md-3">
+          <div class="certificate-card">
+            <img src="Inheritance and Data Structures in Java.png" alt="Project" />
             <div class="p-4">
               <p>Inheritance and Data Structures in Java</p>
               <a href="https://coursera.org/verify/H8XTMHMZSYZX" class="btn btn-outline-primary">View Certificate</a>
             </div>
           </div>
         </div>
+
+
+        <!-- Certificate Number 3 -->
+
+       
         <div class="col-md-3">
           <div class="certificate-card">
-            <img 
-              src="Introduction to HTML, CSS, & JavaScript.png"
-              alt="Project" />
+            <img src="Introduction to HTML, CSS, & JavaScript.png" alt="Project" />
             <div class="p-4">
               <p>Introduction to HTML, CSS, & JavaScript</p>
               <a href="https://coursera.org/verify/2MWVBEWX2M8N" class="btn btn-outline-primary">View Certificate</a>
@@ -187,40 +202,24 @@
           </div>
         </div>
 
-        <div class="col-md-3">
-          <div class="certificate-card">
-            <img 
-              src="Introduction to Java.png"
-              alt="Project" />
-            <div class="p-4">
-              <p>Introduction to Java</p>
-              <a href="https://coursera.org/verify/TUX8P7X8ELQD" class="btn btn-outline-primary">View Certificate</a>
-            </div>
-          </div>
-        </div>
-           <div class="col-md-3">
-            <div class="certificate-card">
-              <img
-                class="img-thumbnail"
-                src="Exploratory Data Analysis for Machine Learning.png"
-                alt="Project"
-              />
-              <div class="p-4">
-                <p>Exploratory Data Analysis for Machine Learning</p>
-                <a
-                  href="https://www.coursera.org/account/accomplishments/verify/NBH6CSAM16MD"
-                  class="btn btn-outline-primary"
-                  >View Certificate</a
-                >
-              </div>
-            </div>
-          </div>
+<!-- Certificate Number 4 -->
 
         <div class="col-md-3">
           <div class="certificate-card">
-            <img 
-              src="Developing Front-End Apps with React.png"
-              alt="Project" />
+            <img class="img-thumbnail" src="Exploratory Data Analysis for Machine Learning.png" alt="Project" />
+            <div class="p-4">
+              <p>Exploratory Data Analysis for Machine Learning</p>
+              <a href="https://www.coursera.org/account/accomplishments/verify/NBH6CSAM16MD"
+                class="btn btn-outline-primary">View Certificate</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certificate Number 5 -->
+
+        <div class="col-md-3">
+          <div class="certificate-card">
+            <img src="Developing Front-End Apps with React.png" alt="Project" />
             <div class="p-4">
               <p>Developing Front-End Apps with React</p>
               <a href="https://coursera.org/verify/0178B60775HH" class="btn btn-outline-primary">View Certificate</a>
@@ -228,19 +227,48 @@
           </div>
         </div>
 
+        <!-- Certificate Number 6 -->
+
         <div class="col-md-3">
-          <div class="coming-soon-card-certificate rounded-4 certificate-card">
-            <div class="coming-soon-text">Coming Soon new <br> certificate</div>
+          <div class="certificate-card">
+            <div class="coming-soon-card-certificate rounded-4 certificate-card">
+              <div class="coming-soon-text">Coming Soon new <br> certificate</div>
+            </div>
+            <div class="p-4">
+              <p>Introduction to Front-End Development</p>
+              <a href="#certificate" class="btn btn-outline-primary"
+                onclick='document.getElementsByClassName("popup")[0].style.display = "block"'>View Certificate</a>
+            </div>
           </div>
         </div>
-       <div class="col-md-3">
-          <div class="coming-soon-card-certificate rounded-4 certificate-card">
-            <div class="coming-soon-text">Coming Soon new <br> certificate</div>
+
+        <!-- Certificate Number 7 -->
+
+        <div class="col-md-3">
+          <div class="certificate-card">
+            <div class="coming-soon-card-certificate rounded-4 certificate-card">
+              <div class="coming-soon-text">Coming Soon new <br> certificate</div>
+            </div>
+            <div class="p-4">
+              <p>Project Management Job Search, Resume, and Interview Prep</p>
+              <a href="#certificate" class="btn btn-outline-primary"
+                onclick='document.getElementsByClassName("popup")[0].style.display = "block"'>View Certificate</a>
+            </div>
           </div>
         </div>
+
+        <!-- Certificate Number 8 -->
+
         <div class="col-md-3">
-          <div class="coming-soon-card-certificate rounded-4 certificate-card">
-            <div class="coming-soon-text">Coming Soon new <br> certificate</div>
+          <div class="certificate-card">
+            <div class="coming-soon-card-certificate rounded-4 certificate-card">
+              <div class="coming-soon-text">Coming Soon new <br> certificate</div>
+            </div>
+            <div class="p-4">
+              <p></p>
+              <a href="#certificate" class="btn btn-outline-primary"
+                onclick='document.getElementsByClassName("popup")[0].style.display = "block"'>View Certificate</a>
+            </div>
           </div>
         </div>
 
@@ -329,8 +357,21 @@
     </div>
   </section>
 
+  <div class="popup">
+    <p>
+    <p class="massage">Course is not a Completed now</p>
+    <br>
+    <button onclick='document.getElementsByClassName("popup")[0].style.display = "none"'>Close</button>
+  </div>
+
+
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    function popupBox() {
+
+    }
+  </script>
 </body>
 
 </html>
