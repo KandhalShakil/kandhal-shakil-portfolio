@@ -42,6 +42,53 @@ body {
   width: 100%;
 }
 
+/* Hero Section */
+.hire-btn {
+  background: linear-gradient(90deg, var(--primary-color), aqua);
+  color: var(--secondary-color);
+  padding: 1rem 2.5rem;
+  border-radius: 50px;
+  font-weight: 600;
+  position: relative;
+  /* overflow: hidden; */
+  transition: all 0.3s ease;
+  border: none;
+  transition: background 5s ease-in;
+  text-decoration: none;
+  margin: 0.5rem 1rem 0rem 1rem;
+}
+
+.hero {
+  background-color: var(--secondary-color);
+  padding: 7rem 0 5rem;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.typing {
+  min-height: 2.5rem;
+  display: inline-block;
+}
+
+.hero img {
+  margin-top: -10%;
+  box-shadow: 0 0 20px rgba(100, 255, 218, 0.3);
+  transition: all 0.3s ease;
+}
+.hero img:hover {
+  box-shadow: 0 0 30px rgba(100, 255, 218, 0.5);
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero img {
+    width: 120px !important;
+  }
+}
+
 /* Skills Section */
 .skill-card {
   background: var(--secondary-color);
@@ -55,10 +102,13 @@ body {
   transform: translateY(-10px);
   box-shadow: 0 10px 30px rgba(100, 255, 218, 0.1);
 }
+#education{
+  background-color: var(--secondary-color);
+}
 
 /* Education Section */
 .education-card {
-  background: var(--secondary-color);
+  background: var(--background-color);
   border: 1px solid var(--highlight-color);
   transition: all 0.3s ease;
   height: 250px;
@@ -71,6 +121,9 @@ body {
   box-shadow: 0 5px 15px rgba(100, 255, 218, 0.1);
 }
 
+#certificate{
+  background-color: var(--background-color);
+}
 /* certificate cards */
 .certificate-card {
   background: var(--secondary-color);
@@ -87,7 +140,7 @@ body {
 }
 
 .coming-soon-card-certificate {
-  background: rgba(var(--bs-primary-rgb), 0.05);
+  background: var(--bs-primary-rgb);
   border-radius: 1.5rem;
   overflow: hidden;
   transition: all 0.3s ease;
@@ -112,6 +165,9 @@ body {
   transform: translateY(-10px);
 }
 
+#projects{
+  background-color: var(--secondary-color);
+}
 /* Project Cards */
 .project-card {
   background: var(--secondary-color);
@@ -130,19 +186,6 @@ body {
 .project-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 5px 15px rgba(100, 255, 218, 0.1);
-}
-
-.hire-btn {
-  background: linear-gradient(90deg, var(--primary-color), aqua);
-  color: var(--secondary-color);
-  padding: 1rem 2.5rem;
-  border-radius: 50px;
-  font-weight: 600;
-  position: relative;
-  overflow: hidden;
-  transition: all 0.3s ease;
-  border: none;
-  transition: background 5s ease-in;
 }
 
 .section-title {
@@ -271,6 +314,6 @@ body {
 
 @media (max-width: 450px) {
   .popup {
-  width: 20rem;
-}
+    width: 20rem;
+  }
 }
