@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body>
   <!-- Navigation -->
   <nav class="navbar navbar-expand-md fixed-top">
@@ -48,33 +49,17 @@
       </div>
     </div>
   </nav>
+
   <!-- Hero Section -->
   <section class="hero" id="about">
-    <div class="container">
-      <div class="align-items-center">
-        <h1 class="display-1 mb-4" style="margin-top: 80px">
-          Kandhal Shakil
-        </h1>
-        <h2 class="mb-4" style="color: var(--primary-color)">
-          Frontend Developer
-        </h2>
-        <p class="mb-5" style="text-align: justify; font-size: 15px">
-          I am a detail-conscious and enthusiastic
-          <b>Frontend Developer</b> with expertise in HTML5, CSS3, JavaScript,
-          and new frameworks such as React.js. I love converting complex
-          issues into simple, easy-to-use solutions and designing responsive,
-          beautiful websites. With direct experience in building dynamic web
-          interfaces and a deep understanding of best practices in web
-          development, I look forward to working on cutting-edge projects at
-          Winzons. I prefer working in team settings, am a quick learner of
-          new technology, and always work towards providing clean, efficient
-          code that improves user experience.
-        </p>
-        <button class="hire-btn"
-          onclick="location.href='mailto:kandhalshakil098@gmaill.com?subject=Hello%20there&body=I%20would%20like%20Your%20Skills%20and%20projects.%0A%0APlease%20send%20more%20details...'">
-          Get In Touch
-        </button>
-      </div>
+    <div class="container text-center" style="margin-top: 100px;">
+      <img src="profile.jpg" alt="Profile" class="rounded-circle mb-3"
+        style="width: 300px; border: 4px solid var(--primary-color);" />
+      <h1 class="display-1">Kandhal Shakil</h1>
+      <h2 class="mb-4 text-primary typing"></h2>
+      <p class="mb-5" style="text-align: justify;">I am a detail-conscious and enthusiastic Frontend Developer with expertise in HTML5, CSS3, JavaScript, and new frameworks such as React.js. I love converting complex issues into simple, easy-to-use solutions and designing responsive, beautiful websites. With direct experience in building dynamic web interfaces and a deep understanding of best practices in web development, I look forward to working on cutting-edge projects at Winzons. I prefer working in team settings, am a quick learner of new technology, and always work towards providing clean, efficient code that improves user experience.</p>
+      <a href="mailto:kandhalshakil098@gmail.com" class="hire-btn">Get In Touch</a>
+      <a href="resume.pdf" class="hire-btn" download>Download Resume</a>
     </div>
   </section>
 
@@ -89,12 +74,32 @@
             <h4>Python</h4>
           </div>
         </div>
+
         <div class="col-md-3">
           <div class="skill-card">
             <i class="fab fa-html5 fa-3x mb-3" style="color: var(--primary-color)"></i>
+            <h4>HTML5</h4>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="skill-card">
             <i class="fab fa-css3-alt fa-3x mb-3" style="color: var(--primary-color)"></i>
-            <i class="fab fa-js fa-3x mb-3" style="color: var(--primary-color)"></i>
-            <h4>HTML,CSS,JS</h4>
+            <h4>CSS</h4>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="skill-card">
+            <i class="fa-brands fa-react fa-3x mb-3" style="color: var(--primary-color)"></i>
+            <h4>REACT</h4>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="skill-card">
+            <i class="fab fa-node-js fa-3x mb-3" style="color: var(--primary-color)"></i>
+            <h4>NODE JS</h4>
           </div>
         </div>
 
@@ -104,12 +109,21 @@
             <h4>JAVA</h4>
           </div>
         </div>
+
         <div class="col-md-3">
           <div class="skill-card">
             <i class="fab fa-bootstrap fa-3x mb-3" style="color: var(--primary-color)"></i>
             <h4>Bootstrap</h4>
           </div>
         </div>
+
+        <div class="col-md-3">
+          <div class="skill-card">
+            <i class="fa-solid fa-sharp-duotone fa-database fa-3x mb-3" style="color: var(--primary-color)"></i>
+            <h4>Mongo DB</h4>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -160,13 +174,13 @@
   </section>
 
   <!-- Certificate Section -->
-  <section id="certificate" class="py-5 bg-dark">
+  <section id="certificate" class="py-5">
     <div class="container">
       <h2 class="section-title mb-5">Certificates</h2>
       <div class="row g-4">
 
         <!-- Certificate Number 1 -->
-          <div class="col-md-3">
+        <div class="col-md-3">
           <div class="certificate-card">
             <img src="Introduction to Java.png" alt="Project" />
             <div class="p-4">
@@ -178,7 +192,7 @@
 
         <!-- Certificate Number 2 -->
 
-         <div class="col-md-3">
+        <div class="col-md-3">
           <div class="certificate-card">
             <img src="Inheritance and Data Structures in Java.png" alt="Project" />
             <div class="p-4">
@@ -191,7 +205,7 @@
 
         <!-- Certificate Number 3 -->
 
-       
+
         <div class="col-md-3">
           <div class="certificate-card">
             <img src="Introduction to HTML, CSS, & JavaScript.png" alt="Project" />
@@ -202,7 +216,7 @@
           </div>
         </div>
 
-<!-- Certificate Number 4 -->
+        <!-- Certificate Number 4 -->
 
         <div class="col-md-3">
           <div class="certificate-card">
@@ -277,7 +291,7 @@
   </section>
 
   <!-- Projects Section -->
-  <section id="projects" class="py-5 bg-dark">
+  <section id="projects" class="py-5">
     <div class="container">
       <h2 class="section-title mb-5">Projects</h2>
       <div class="row g-4">
@@ -366,12 +380,18 @@
 
 
   <!-- Scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
-  <script>
-    function popupBox() {
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+ <script>
+  new Typed(".typing", {
+    strings: ["Frontend Developer", "React.js Enthusiast", "Open Source Contributor"],
+    typeSpeed: 80,
+    backSpeed: 50,
+    loop:true ,
+    showCursor : false
+  });
+</script>
 
-    }
-  </script>
 </body>
 
 </html>
