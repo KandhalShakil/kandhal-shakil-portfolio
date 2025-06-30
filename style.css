@@ -50,12 +50,12 @@ body {
   border-radius: 50px;
   font-weight: 600;
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
   transition: all 0.3s ease;
   border: none;
   transition: background 5s ease-in;
   text-decoration: none;
-  margin: 0.5rem 1rem 0rem 1rem;
+  margin: 0.5rem 3rem 0rem 3rem;
 }
 
 .hero {
@@ -87,7 +87,16 @@ body {
   .hero img {
     width: 120px !important;
   }
+  .hire-btn {
+    margin: 0.5rem 3rem 0rem 3rem;
+  }
 }
+@media (max-width: 767px) {
+  .hire-btn {
+    margin: 0.5rem 0rem 0rem 0rem;
+  }
+}
+
 
 /* Skills Section */
 .skill-card {
@@ -102,7 +111,7 @@ body {
   transform: translateY(-10px);
   box-shadow: 0 10px 30px rgba(100, 255, 218, 0.1);
 }
-#education{
+#education {
   background-color: var(--secondary-color);
 }
 
@@ -121,7 +130,7 @@ body {
   box-shadow: 0 5px 15px rgba(100, 255, 218, 0.1);
 }
 
-#certificate{
+#certificate {
   background-color: var(--background-color);
 }
 /* certificate cards */
@@ -165,7 +174,7 @@ body {
   transform: translateY(-10px);
 }
 
-#projects{
+#projects {
   background-color: var(--secondary-color);
 }
 /* Project Cards */
@@ -315,5 +324,14 @@ body {
 @media (max-width: 450px) {
   .popup {
     width: 20rem;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero img {
+    width: 120px !important;
+  }
+  .hire-btn {
+    margin: 0.5rem 0rem;
   }
 }
