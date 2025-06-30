@@ -33,17 +33,16 @@ This portfolio was created with the goal of standing out — using custom code a
 
 ```
 kandhal-shakil-portfolio/
-├── assets/
-│   ├── css/           # Custom styles
-│   ├── js/            # Script files
-│   └── images/        # Portfolio images
-├── index.html         # Home page
-├── about.html         # About Me
-├── projects.html      # Portfolio projects
-├── contact.html       # Contact form
-├── resume.html        # Resume view/download
-└── README.md
+├── index.HTML                  # Main homepage
+├── style.css                   # All styles in a single file
+├── README.md                   # Documentation
+├── logo.jpg                    # Logo used in navbar or header
+├── pic.jpg                     # Likely portfolio image
+├── profile.jpg                 # Profile picture
+├── google17a8abc7b4246faa.html# Google verification file
+├── *.png                       # Certificate or project images
 ```
+
 
 ---
 
