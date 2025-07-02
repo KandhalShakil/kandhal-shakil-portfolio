@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kandhal Shakil | Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="pic.jpg" style="border-radius: 50%" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Particles Background -->
+  <div id="particles-js"></div>
+  
+  <!-- Scroll Indicator -->
+  <div class="scroll-indicator"></div>
+  
+  <!-- Back to Top Button -->
+  <div class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-md fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#about" style="color: var(--primary-color)">KS</a>
+      <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="fas fa-bars text-white-50"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#certificate">Certificates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <!-- Theme Toggle Button -->
+          <li class="nav-item ms-2">
+            <button id="theme-toggle" class="btn btn-sm btn-outline-primary">
+              <i class="fas fa-moon"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="about">
+    <div class="container text-center" style="margin-top: 100px;">
+      <img src="profile.jpg" alt="Profile" class="rounded-circle mb-3 slide-in-bottom"
+        style="width: 300px; border: 4px solid var(--primary-color);" />
+      <h1 class="display-1 slide-in-left"><b>KANDHAL SHAKIL</b></h1>
+      <b><h2 class="mb-4 typing slide-in-right"></h2></b>
+      <p class="fade-in" style="text-align: justify; display: flex; justify-content: center; align-items: center; font-weight:bold"><i>Developer by daylight, code poet by night. Architectonic immersive web experiences in the glow of VS Code.</i></p>
+      <div class="row g-2" style=" display: flex; justify-content: center; align-items: center;">
+        <a href="mailto:kandhalshakil098@gmail.com" class="hire-btn col-md-4">Get In Touch</a>
+        <a href="#" class="hire-btn col-md-4" download>Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-5">
+          <div class="container">
+            <h2 class="section-title mb-5">Technical Arsenal</h2>
+            <div class="row g-4">
+              <div class="col-md-3">
+                <div class="skill-card">
+                  <i class="fab fa-python fa-3x mb-3" style="color: var(--primary-color)"></i>
+                  <h4>Python</h4>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 85%"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="skill-card">
+                  <i class="fab fa-html5 fa-3x mb-3" style="color: var(--primary-color)"></i>
+                  <h4>HTML5</h4>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 95%"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="skill-card">
+                  <i class="fab fa-css3-alt fa-3x mb-3" style="color: var(--primary-color)"></i>
+                  <h4>CSS</h4>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 90%"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="skill-card">
+                  <i class="fa-brands fa-react fa-3x mb-3" style="color: var(--primary-color)"></i>
+                  <h4>REACT</h4>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 80%"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="skill-card">
+                  <i class="fab fa-node-js fa-3x mb-3" style="color: var(--primary-color)"></i>
+                  <h4>NODE JS</h4>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 75%"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="skill-card">
+                  <i class="fab fa-java fa-3x mb-3" style="color: var(--primary-color)"></i>
+                  <h4>JAVA</h4>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 70%"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="skill-card">
+                  <i class="fab fa-bootstrap fa-3x mb-3" style="color: var(--primary-color)"></i>
+                  <h4>Bootstrap</h4>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 92%"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="skill-card">
+                  <i class="fa-solid fa-sharp-duotone fa-database fa-3x mb-3" style="color: var(--primary-color)"></i>
+                  <h4>Mongo DB</h4>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 65%"></div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+  </section>
+  <!-- Education Section -->
+  <section id="education" class="py-5">
+    <div class="container">
+      <h2 class="section-title mb-5">Education</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="education-card align-items-center">
+            <div class="education-details">
+              <h4>
+                Bachelor of Engineering in Computer Science and Technology
+              </h4>
+              <p class="mb-1" style="color: var(--primary-color)">
+                Lok jagruti Kendra University
+              </p>
+              <p>2023 - continue</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="education-card align-items-center">
+            <div class="education-details">
+              <h4>12<sup>th</sup> Science</h4>
+              <p class="mb-1" style="color: var(--primary-color)">
+                Gujarat State Board
+              </p>
+              <p>2022 - 2023</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="education-card align-items-center">
+            <div class="education-details">
+              <h4>10<sup>th</sup></h4>
+              <p class="mb-1" style="color: var(--primary-color)">
+                Gujarat State Board
+              </p>
+              <p>2020 - 2021</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificate Section -->
+  <section id="certificate" class="py-5">
+    <div class="container">
+      <h2 class="section-title mb-5">Certificates</h2>
+      <div class="row g-4">
+
+        <!-- Certificate Number 1 -->
+        <div class="col-md-3">
+          <div class="certificate-card">
+            <img src="Introduction to Java.png" alt="Project" />
+            <div class="p-4">
+              <p>Introduction to Java</p>
+              <a href="https://coursera.org/verify/TUX8P7X8ELQD" class="btn btn-outline-primary">View Certificate</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certificate Number 2 -->
+
+        <div class="col-md-3">
+          <div class="certificate-card">
+            <img src="Inheritance and Data Structures in Java.png" alt="Project" />
+            <div class="p-4">
+              <p>Inheritance and Data Structures in Java</p>
+              <a href="https://coursera.org/verify/H8XTMHMZSYZX" class="btn btn-outline-primary">View Certificate</a>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Certificate Number 3 -->
+
+
+        <div class="col-md-3">
+          <div class="certificate-card">
+            <img src="Introduction to HTML, CSS, & JavaScript.png" alt="Project" />
+            <div class="p-4">
+              <p>Introduction to HTML, CSS, & JavaScript</p>
+              <a href="https://coursera.org/verify/2MWVBEWX2M8N" class="btn btn-outline-primary">View Certificate</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certificate Number 4 -->
+
+        <div class="col-md-3">
+          <div class="certificate-card">
+            <img src="Exploratory Data Analysis for Machine Learning.png" alt="Project" />
+            <div class="p-4">
+              <p>Exploratory Data Analysis for Machine Learning</p>
+              <a href="https://www.coursera.org/account/accomplishments/verify/NBH6CSAM16MD"
+                class="btn btn-outline-primary">View Certificate</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certificate Number 5 -->
+
+        <div class="col-md-3">
+          <div class="certificate-card">
+            <img src="Developing Front-End Apps with React.png" alt="Project" />
+            <div class="p-4">
+              <p>Developing Front-End Apps with React</p>
+              <a href="https://coursera.org/verify/0178B60775HH" class="btn btn-outline-primary">View Certificate</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certificate Number 6 -->
+
+        <div class="col-md-3">
+          <div class="certificate-card">
+            <div class="coming-soon-card-certificate rounded-4 certificate-card">
+              <div class="coming-soon-text">Coming Soon new <br> certificate</div>
+            </div>
+            <div class="p-4">
+              <p>Introduction to Front-End Development</p>
+              <a href="#certificate" class="btn btn-outline-primary"
+                onclick='document.getElementsByClassName("popup")[0].style.display = "block"'>View Certificate</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certificate Number 7 -->
+
+        <div class="col-md-3">
+          <div class="certificate-card">
+            <div class="coming-soon-card-certificate rounded-4 certificate-card">
+              <div class="coming-soon-text">Coming Soon new <br> certificate</div>
+            </div>
+            <div class="p-4">
+              <p>Project Management Job Search, Resume, and Interview Prep</p>
+              <a href="#certificate" class="btn btn-outline-primary"
+                onclick='document.getElementsByClassName("popup")[0].style.display = "block"'>View Certificate</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certificate Number 8 -->
+
+        <div class="col-md-3">
+          <div class="certificate-card">
+            <div class="coming-soon-card-certificate rounded-4 certificate-card">
+              <div class="coming-soon-text">Coming Soon new <br> certificate</div>
+            </div>
+            <div class="p-4">
+              <p></p>
+              <a href="#certificate" class="btn btn-outline-primary"
+                onclick='document.getElementsByClassName("popup")[0].style.display = "block"'>View Certificate</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="section-title mb-5">Projects</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="project-card">
+            <img src="logo.jpg" alt="Project"/>
+            <div class="p-4">
+              <h4>Event Management System</h4>
+              <p>Full-stack event management solution</p>
+              <a href="https://sky-event.vercel.app/" class="btn btn-outline-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="project-card">
+            <img src="https://img.freepik.com/premium-vector/tic-tac-toe-logo-icon_1076610-87173.jpg" alt="Project"
+              class="img-thumbnail" />
+            <div class="p-4">
+              <h4>TIC TAC TOE GAME</h4>
+              <p>Full-stack Game</p>
+              <a href="https://tic-tac-toe-game-cyan-five.vercel.app/" class="btn btn-outline-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="coming-soon-card rounded-4 project-card">
+            <div class="coming-soon-text">Coming Soon</div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-5">
+        <p class="lead">
+          <i class="fa-solid fa-atom fa-spin me-2"></i>
+          Amazing projects are in development!
+        </p>
+      </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="section-title mb-5">Let's Connect</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="contact-card p-5 rounded-4" style="background: var(--card-color); backdrop-filter: blur(10px);">
+            <!-- Web3Forms Implementation -->
+            <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+              <!-- Web3Forms Configuration -->
+              <input type="hidden" name="access_key" value="d318db9f-2c5a-4d11-a519-f8bc56782e1e">
+              <input type="hidden" name="subject" value="New Message from Portfolio">
+              <input type="hidden" name="from_name" value="Portfolio Contact Form">
+              <input type="hidden" name="redirect" value="https://web3forms.com/success">
+              <input type="checkbox" name="botcheck" style="display: none;">
+              
+              <div class="mb-4">
+                <input type="text" class="form-control bg-dark text-light" placeholder="Name" id="name" name="name" required>
+                <div class="error-message" id="nameError">Please enter your name</div>
+              </div>
+              <div class="mb-4">
+                <input type="email" class="form-control bg-dark text-light" placeholder="Email" id="email" name="email" required>
+                <div class="error-message" id="emailError">Please enter a valid email</div>
+              </div>
+              <div class="mb-4">
+                <textarea class="form-control bg-dark text-light" rows="4" placeholder="Message" id="message" name="message" required></textarea>
+                <div class="error-message" id="messageError">Please enter your message</div>
+              </div>
+              <button type="submit" class="hire-btn w-100" style="margin: 0rem 0rem -3rem 0rem" id="submitBtn">
+                Send Message
+                <span class="submit-loader" id="submitLoader"></span>
+              </button>
+              <div class="success-message mt-3" id="successMessage">
+                <i class="fas fa-check-circle me-2"></i>Message sent successfully!
+              </div>
+            </form>
+            <div class="d-flex justify-content-center gap-4 mt-5">
+              <a href="https://github.com/KandhalShakil" target="_blank" class="social-icon">
+                <i class="fab fa-github fa-2x"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/kandhal-shakil-5311302b6/" target="_blank" class="social-icon">
+                <i class="fab fa-linkedin fa-2x"></i>
+              </a>
+              <a href="https://x.com/ShakilKandhal" target="_blank" class="social-icon">
+                <i class="fab fa-twitter fa-2x"></i>
+              </a>
+              <a href="https://www.instagram.com/kandhal_shakil_551" target="_blank" class="social-icon">
+                <i class="fab fa-instagram fa-2x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="popup">
+    <p class="massage">Course is not a Completed now</p>
+    <br>
+    <button onclick='document.getElementsByClassName("popup")[0].style.display = "none"'>Close</button>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center py-4" style="background: var(--secondary-color);">
+    <div class="container">
+      <p>© 2025 Kandhal Shakil. All rights reserved.</p>
+      <p>Designed and developed with ❤️</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    // Initialize Typed.js
+    new Typed(".typing", {
+      strings: ["Frontend Developer", "Web Designer", "React Specialist"],
+      typeSpeed: 80,
+      backSpeed: 50,
+      loop: true,
+      showCursor: false
+    });
+
+    // Theme Toggle Functionality
+    document.addEventListener('DOMContentLoaded', () => {
+      const themeToggle = document.getElementById('theme-toggle');
+      const icon = themeToggle.querySelector('i');
+      
+      // Load saved theme
+      const savedTheme = localStorage.getItem('theme') || 'dark';
+      if (savedTheme === 'light') activateLightMode();
+      
+      themeToggle.addEventListener('click', () => {
+        document.body.classList.contains('light-theme') 
+          ? activateDarkMode() 
+          : activateLightMode();
+      });
+
+      function activateLightMode() {
+        document.body.classList.add('light-theme');
+        icon.className = 'fas fa-sun';
+        localStorage.setItem('theme', 'light');
+      }
+
+      function activateDarkMode() {
+        document.body.classList.remove('light-theme');
+        icon.className = 'fas fa-moon';
+        localStorage.setItem('theme', 'dark');
+      }
+      
+      // Initialize particles.js
+      particlesJS('particles-js', {
+        particles: {
+          number: { value: 800, density: { enable: true, value_area: 800 } },
+          color: { value: "#4ba690" },
+          shape: { type: "star" },
+          opacity: { value: 0.5, random: true },
+          size: { value: 10, random: true },
+          line_linked: {
+            enable: false,
+          },
+          move: {
+            enable: true,
+            speed: 5,
+            straight: false,
+          }
+        },
+        interactivity: {
+          detect_on: "canvas",
+          events: {
+            onhover: { enable: true, mode: "repulse" },
+            onclick: { enable: true, mode: "push" },
+            resize: true
+          }
+        },
+        retina_detect: true
+      });
+      
+      // Animate elements on scroll
+      const animateOnScroll = () => {
+        const elements = document.querySelectorAll('.section-title, .skill-card, .education-card, .certificate-card, .project-card');
+        
+        elements.forEach(element => {
+          const elementPosition = element.getBoundingClientRect().top;
+          const screenPosition = window.innerHeight / 1.3;
+          
+          if (elementPosition < screenPosition) {
+            element.classList.add('animate');
+          }
+        });
+      };
+      
+      // Initialize animation on load
+      window.addEventListener('load', animateOnScroll);
+      
+      // Animate on scroll
+      window.addEventListener('scroll', animateOnScroll);
+      
+      // Back to top button
+      const backToTop = document.querySelector('.back-to-top');
+      
+      window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 300) {
+          backToTop.classList.add('show');
+        } else {
+          backToTop.classList.remove('show');
+        }
+      });
+      
+      backToTop.addEventListener('click', () => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+      
+      // Scroll progress indicator
+      const scrollIndicator = document.querySelector('.scroll-indicator');
+      
+      window.addEventListener('scroll', () => {
+        const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const scrolled = (window.pageYOffset / scrollHeight) * 100;
+        scrollIndicator.style.width = scrolled + '%';
+      });
+      
+      // Form validation and submission (Web3Forms)
+      const contactForm = document.getElementById('contactForm');
+      const submitBtn = document.getElementById('submitBtn');
+      const submitLoader = document.getElementById('submitLoader');
+      const successMessage = document.getElementById('successMessage');
+      
+      contactForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        submitBtn.disabled = true;
+        submitLoader.style.display = 'inline-block';
+        
+        // Form validation
+        let isValid = true;
+        const name = document.getElementById('name');
+        const email = document.getElementById('email');
+        const message = document.getElementById('message');
+        
+        // Reset errors and success
+        document.querySelectorAll('.error-message').forEach(el => el.style.display = 'none');
+        document.querySelectorAll('.form-control').forEach(el => el.classList.remove('error'));
+        successMessage.style.display = 'none';
+        
+        // Validate fields
+        if (!name.value.trim()) {
+          showError(name, 'nameError');
+          isValid = false;
+        }
+        
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!email.value.trim() || !emailRegex.test(email.value)) {
+          showError(email, 'emailError');
+          isValid = false;
+        }
+        
+        if (!message.value.trim()) {
+          showError(message, 'messageError');
+          isValid = false;
+        }
+        
+        if (!isValid) {
+          submitBtn.disabled = false;
+          submitLoader.style.display = 'none';
+          return;
+        }
+        
+        // Submit form
+        try {
+          const formData = new FormData(contactForm);
+          
+          const response = await fetch(contactForm.action, {
+            method: 'POST',
+            body: formData,
+            headers: {
+              'Accept': 'application/json'
+            }
+          });
+          
+          const result = await response.json();
+          
+          if (result.success) {
+            // Show success message
+            successMessage.style.display = 'block';
+            contactForm.reset();
+            
+            // Hide success message after 5 seconds
+            setTimeout(() => {
+              successMessage.style.display = 'none';
+            }, 5000);
+          } else {
+            throw new Error(result.message || 'Form submission failed');
+          }
+        } catch (error) {
+          alert('Error: ' + error.message);
+        } finally {
+          submitBtn.disabled = false;
+          submitLoader.style.display = 'none';
+        }
+      });
+      
+      function showError(field, errorId) {
+        field.classList.add('error');
+        document.getElementById(errorId).style.display = 'block';
+      }
+    });
+  </script>
+</body>
+</html>
