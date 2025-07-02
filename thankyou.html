@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thank You | Kandhal Shakil</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --primary-color: #64ffda;
+      --background-color: #0a192f;
+      --text-color: #ffffff;
+    }
+
+    body {
+      background-color: var(--background-color);
+      color: var(--text-color);
+      font-family: 'Space Grotesk', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .thankyou-box {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--primary-color);
+      padding: 3rem 2rem;
+      border-radius: 1.5rem;
+      box-shadow: 0 0 30px rgba(100, 255, 218, 0.2);
+      backdrop-filter: blur(12px);
+      max-width: 600px;
+    }
+
+    .thankyou-box h1 {
+      font-size: 2.5rem;
+      color: var(--primary-color);
+      margin-bottom: 1rem;
+    }
+
+    .thankyou-box p {
+      font-size: 1.2rem;
+      color: var(--text-color);
+      opacity: 0.8;
+    }
+
+    .btn-home {
+      margin-top: 2rem;
+      background: var(--primary-color);
+      color: var(--background-color);
+      font-weight: 600;
+      padding: 0.75rem 2rem;
+      border: none;
+      border-radius: 50px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      display: inline-block;
+    }
+
+    .btn-home:hover {
+      background: #52e0c4;
+      transform: translateY(-3px);
+    }
+  </style>
+</head>
+<body>
+  <div class="thankyou-box">
+    <h1><i class="fas fa-check-circle"></i> Message Sent!</h1>
+    <p>Thank you for reaching out. I’ll get back to you shortly!</p>
+    <a href="index.html" class="btn-home">Back to Portfolio</a>
+  </div>
+</body>
+</html>
