@@ -82,7 +82,7 @@
       </p>
       <div class="row g-2" style=" display: flex; justify-content: center; align-items: center;">
         <a href="mailto:kandhalshakil098@gmail.com" class="hire-btn col-md-4">Get In Touch</a>
-        <a href="#" class="hire-btn col-md-4" download>Download Resume</a>
+        <a href="/resume.pdf" class="hire-btn col-md-4" download>Download Resume</a>
       </div>
     </div>
   </section>
@@ -361,7 +361,7 @@
         <div class="col-md-6">
           <div class="contact-card p-5 rounded-4" style="background: var(--card-color); backdrop-filter: blur(10px);">
             <!-- Web3Forms Implementation -->
-            <form id="contactForm" action="https://shakil-kandhal-portfolio.vercel.app/thankyou.html" method="POST">
+            <form id="contactForm" action="/thankyou.html" method="POST">
               <!-- Web3Forms Configuration -->
               <input type="hidden" name="access_key" value="33866287-8f32-480e-8f47-d1d64a519a3c">
               <input type="hidden" name="subject" value="New Message from Portfolio">
@@ -533,97 +533,13 @@
         const scrolled = (window.pageYOffset / scrollHeight) * 100;
         scrollIndicator.style.width = scrolled + '%';
       });
-
-      // Form validation and submission (Web3Forms)
-     /* const contactForm = document.getElementById('contactForm');
-      const submitBtn = document.getElementById('submitBtn');
-      const submitLoader = document.getElementById('submitLoader');
-      const successMessage = document.getElementById('successMessage');
-
-      contactForm.addEventListener('submit', async (e) => {
-        e.preventDefault();
-        submitBtn.disabled = true;
-        submitLoader.style.display = 'inline-block';
-
-        // Form validation
-        let isValid = true;
-        const name = document.getElementById('name');
-        const email = document.getElementById('email');
-        const message = document.getElementById('message');
-
-        // Reset errors and success
-        document.querySelectorAll('.error-message').forEach(el => el.style.display = 'none');
-        document.querySelectorAll('.form-control').forEach(el => el.classList.remove('error'));
-        successMessage.style.display = 'none';
-
-        // Validate fields
-        if (!name.value.trim()) {
-          showError(name, 'nameError');
-          isValid = false;
-        }
-
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (!email.value.trim() || !emailRegex.test(email.value)) {
-          showError(email, 'emailError');
-          isValid = false;
-        }
-
-        if (!message.value.trim()) {
-          showError(message, 'messageError');
-          isValid = false;
-        }
-
-        if (!isValid) {
-          submitBtn.disabled = false;
-          submitLoader.style.display = 'none';
-          return;
-        }
-
-        // Submit form
-        try {
-          const formData = new FormData(contactForm);
-
-          const response = await fetch(contactForm.action, {
-            method: 'POST',
-            body: formData,
-            headers: {
-              'Accept': 'application/json'  // ✅ this is required for Web3Forms
-            }
-          });
-
-
-          const result = await response.json();
-
-          if (result.success) {
-            // Show success message
-            successMessage.style.display = 'block';
-            contactForm.reset();
-
-            // Hide success message after 5 seconds
-            setTimeout(() => {
-              successMessage.style.display = 'none';
-            }, 5000);
-          } else {
-            throw new Error(result.message || 'Form submission failed');
-          }
-        } catch (error) {
-          alert('Error: ' + error.message);
-        } finally {
-          submitBtn.disabled = false;
-          submitLoader.style.display = 'none';
-        }
-      });
-
-      function showError(field, errorId) {
-        field.classList.add('error');
-        document.getElementById(errorId).style.display = 'block';
-      }*/
     }
     );
   </script>
 </body>
 
 </html>
+
 
 
 
